@@ -1,4 +1,34 @@
 .App {
   text-align: center;
   display: flex;
+  align-items: center;
+  background-color: #AEDBCE;
+  flex-direction: column;
+  /* padding: 0 10rem; */
+}
+
+.line {
+  width: 60vw;
+  border-top: 1.5px dotted #635666;
+  font-size: x-large;
+}
+
+.contact {
+  display: flex;
+  background-color: #839AA8;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  width: 400px;
+}
+
+.contact img {
+  width: 100px;
+}
+
+.contact .detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
 }
